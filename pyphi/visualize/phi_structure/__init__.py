@@ -197,7 +197,7 @@ def plot_phi_structure(
             )
 
     # Cause-effect links
-    if 0:#theme["show"].get("cause_effect_links"):
+    if theme["show"].get("cause_effect_links"):
         fig = _plot_cause_effect_links(
             fig,
             distinctions,
