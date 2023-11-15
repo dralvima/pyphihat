@@ -216,11 +216,11 @@ def plot_phi_structure(
         )
 
     # Mechanisms
-    if theme["show"].get("mechanisms"):
+    if 0:#heme["show"].get("mechanisms"):
         fig = _plot_mechanisms(fig, distinctions, mechanism_coords, labeler, theme)
 
     # Distinctions
-    if 0:#theme["show"].get("purviews"):
+    if theme["show"].get("purviews"):
         fig = _plot_purviews(
             fig,
             distinctions,
