@@ -150,7 +150,7 @@ def plot_phi_structure(
         )
 
     # Relations
-    if theme["show"].get("two_faces") or theme["show"].get("three_faces"):
+    if 0#theme["show"].get("two_faces") or theme["show"].get("three_faces"):
         two_faces = relation_two_faces
         three_faces = relation_three_faces
         if two_faces is None or three_faces is None:
@@ -177,7 +177,7 @@ def plot_phi_structure(
             )
 
         # 2-relations
-        if theme["show"].get("two_faces") and two_faces:
+        if 0#theme["show"].get("two_faces") and two_faces:
             fig = _plot_two_relation_faces(
                 fig=fig,
                 face_to_coords=face_to_coords,
@@ -187,7 +187,7 @@ def plot_phi_structure(
             )
 
         # 3-relations
-        if theme["show"].get("three_faces") and three_faces:
+        if 0#theme["show"].get("three_faces") and three_faces:
             fig = _plot_three_relation_faces(
                 fig=fig,
                 face_to_coords=face_to_coords,
@@ -206,7 +206,7 @@ def plot_phi_structure(
         )
 
     # Mechanism-purview links
-    if theme["show"].get("mechanism_purview_links"):
+    if 0#theme["show"].get("mechanism_purview_links"):
         fig = _plot_mechanism_purview_links(
             fig,
             distinctions,
@@ -216,11 +216,11 @@ def plot_phi_structure(
         )
 
     # Mechanisms
-    if theme["show"].get("mechanisms"):
+    if 0#theme["show"].get("mechanisms"):
         fig = _plot_mechanisms(fig, distinctions, mechanism_coords, labeler, theme)
 
     # Distinctions
-    if theme["show"].get("purviews"):
+    if 0#theme["show"].get("purviews"):
         fig = _plot_purviews(
             fig,
             distinctions,
