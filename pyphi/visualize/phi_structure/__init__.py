@@ -216,7 +216,7 @@ def plot_phi_structure(
         )
 
     # Mechanisms
-    if 0:#theme["show"].get("mechanisms"):
+    if theme["show"].get("mechanisms"):
         fig = _plot_mechanisms(fig, distinctions, mechanism_coords, labeler, theme)
 
     # Distinctions
