@@ -206,7 +206,7 @@ def plot_phi_structure(
         )
 
     # Mechanism-purview links
-    if 0#theme["show"].get("mechanism_purview_links"):
+    if 0:#theme["show"].get("mechanism_purview_links"):
         fig = _plot_mechanism_purview_links(
             fig,
             distinctions,
@@ -216,11 +216,11 @@ def plot_phi_structure(
         )
 
     # Mechanisms
-    if 0#theme["show"].get("mechanisms"):
+    if 0:#theme["show"].get("mechanisms"):
         fig = _plot_mechanisms(fig, distinctions, mechanism_coords, labeler, theme)
 
     # Distinctions
-    if 0#theme["show"].get("purviews"):
+    if 0:#theme["show"].get("purviews"):
         fig = _plot_purviews(
             fig,
             distinctions,
