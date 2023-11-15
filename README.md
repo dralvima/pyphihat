@@ -10,7 +10,7 @@
 [![License badge](https://img.shields.io/github/license/wmayner/pyphi.svg?style=flat-square&maxAge=86400)](https://github.com/wmayner/pyphi/blob/master/LICENSE.md)
 [![Python versions badge](https://img.shields.io/pypi/pyversions/pyphi.svg?style=flat-square&maxAge=86400)](https://wiki.python.org/moin/Python2orPython3)
 
-THIS IS A MODIFICATION OF:
+**THIS IS A MODIFICATION OF:**
 
 PyPhi is a Python library for computing integrated information (𝚽), and the
 associated quantities and objects.
