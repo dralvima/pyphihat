@@ -267,6 +267,8 @@ def state_by_state2state_by_node(tpm):
     sbn_tpm = np.zeros(([2] * N + [N]))
     # Map indices to state-tuples with the little-endian convention.
     states = {i: le_index2state(i, N) for i in range(S)}
+    # Let the user double check that their TPM matches the assumed TPM
+    print(states)
     # Get an array for each node with 1 in positions that correspond to that
     # node being on in the next state, and a 0 otherwise.
     node_on = np.array([[states[i][n] for i in range(S)] for n in range(N)])
